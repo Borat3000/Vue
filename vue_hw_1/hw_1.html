@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>vue_hw_1</title>
+    <script src="https://unpkg.com/vue@next"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="card" class="card">
+
+        <div v-for="cats in cats" class="cards">
+            <h3>Имя: {{cats.name}}</h3>
+            <p>Возраст: {{cats.age}}</p>
+            <p>Окрас: {{cats.color}}</p>
+            <img :src="cats.img" alt="cats.name">
+            <a class="link" href="#">Подробнее</a>
+        </div>
+
+    </div>
+
+
+    <script src="js/hw_1.js"></script>
+</body>
+
+</html>

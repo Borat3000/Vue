@@ -1,0 +1,39 @@
+  html {
+    background-color: #f8b195;
+  }
+  
+  .card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .cards img {
+    width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 10%;
+  }
+  
+  .cards {
+    padding: 1rem;
+    text-align: center;
+    border: 4px double #355c7d;
+    flex: 30%;
+  }
+  
+  
+  .cards p {
+    font-size: 20px;
+  }
+  
+  .link {
+    color: black; /* цвет текста */
+    background: #c06c84; /* фон кнопки */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    padding: 3px 40px;
+    border-radius: 6px;
+  }
+  
+  
